@@ -1,0 +1,51 @@
+body {
+    font-family: "Roboto";
+    color: white;
+    background-color: green;
+}
+
+.picture {
+    width: 200px;
+}
+
+.title {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.link::after {
+    display: block;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: rgb(210, 255, 8);
+    transition: all 2s;
+
+
+}
+
+.link:hover::after {
+    background-color: blue;
+    width: 100%;
+
+}
+
+.text {
+    margin-bottom: 30px;
+    text-shadow: 10px 5px 15px black;
+
+}
+
+.item {
+    margin-bottom: 15px;
+
+    background: url("../img/mark.png") 0 0 / 15px no-repeat;
+    padding-left: 20px;
+
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
